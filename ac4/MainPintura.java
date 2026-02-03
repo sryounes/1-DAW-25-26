@@ -9,13 +9,13 @@ public class MainPintura {
         forma esfera = new Esfera(15);
         forma cilindro = new Cilindro(10, 30);
 
-        System.out.println("Pintura necesaria para " + rectangulo + ": "
+        System.out.println("Pintura en " + rectangulo + ": "
                 + pintura.cantidadPintura(rectangulo));
 
-        System.out.println("Pintura necesaria para " + esfera + ": "
+        System.out.println("Pintura en " + esfera + ": "
                 + pintura.cantidadPintura(esfera));
 
-        System.out.println("Pintura necesaria para " + cilindro + ": "
+        System.out.println("Pintura en " + cilindro + ": "
                 + pintura.cantidadPintura(cilindro));
     }
 }
